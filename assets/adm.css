@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    border-radius: 20px;
+}
+
+body{
+    background: linear-gradient(40deg, #100050, #E1184B);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    padding: 2px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.input-field{
+    margin-bottom: 5px;
+}
+
+main.container{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 250px;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0 0);
+    border-radius: 10px; 
+}
+
+form input[ type="submit"]{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    background: #E1184B;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    /* transition: all 0.3s ease; */
+}
+form input[ type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background:#E1184B;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer{
+    color: rgba(0, 0, 0, 0);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer .cadastro{
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer .cadastro a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .cadastro .btncadastro{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    background: #E1184B;
+    cursor: pointer;
+    color: black;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    /* transition: all 0.3s ease; */
+}
+
+span{
+    color: black;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 4px;
+}
+
+#password, #username{
+    width: 250px;
+}
